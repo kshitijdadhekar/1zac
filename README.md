@@ -17,3 +17,14 @@ The following parts have been added to this Eagle LBR
 # Mosfet
 - ML8205A Dual Mosfet for Battery management
 - MCH6444-TL-W N channel mosfet- 2.5A, 35V, 98mohm 
+
+# Communications
+- Quectel MC60 2g GSM module: Dual Sim + GNSS + Bluetooth
+- Quectel EC25 4g LTE module: IOT + GNSS, Mini PCIE 
+
+# EEG
+- Neurosky TGAT1: EEG data acquisition.
+
+# OBD
+- STN1110 OBD data interpreter IC: DIL28 and qfn28 packages
+- OBDii 90 degree connector To order send an email to: sales@cct-elec.com
