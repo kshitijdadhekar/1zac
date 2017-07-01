@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -969,7 +969,9 @@
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="LMR23625 " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -998,7 +1000,9 @@
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="MP1584" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1163,7 +1167,9 @@ Available in 20,30,40,50,60 Volts</description>
 <connect gate="G$1" pin="S2@2" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="ML8205A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1264,6 +1270,7 @@ Available in 20,30,40,50,60 Volts</description>
 </devices>
 </deviceset>
 <deviceset name="MC60">
+<description>Quectel MC60:  Dual Sim+ GNSS + Bluetooth</description>
 <gates>
 <gate name="G$1" symbol="MC60" x="0" y="0"/>
 </gates>
@@ -1340,12 +1347,16 @@ Available in 20,30,40,50,60 Volts</description>
 <connect gate="G$1" pin="VRTC" pad="VRTC"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="Quectel MC60" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MICROSIM">
+<description>Micro SIM card slor sold by AND global.
+Link: &lt;a href= "https://goo.gl/uBNRrN"&gt; AND GLOBAL MicroSIM CARD SLOT&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MICROSIM" x="0" y="0"/>
 </gates>
@@ -1365,7 +1376,7 @@ Available in 20,30,40,50,60 Volts</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LD39200PU33R">
+<deviceset name="LD39200">
 <description>&lt;B&gt;LDO 2A 3.3v&lt;/B&gt;&lt;br&gt;
 2 A high PSRR ultra low drop linear regulator with reverse
 current protection</description>
@@ -1384,7 +1395,9 @@ current protection</description>
 <connect gate="G$1" pin="PG" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="LD39200PU33R " constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
